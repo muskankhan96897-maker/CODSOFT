@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #8686AC;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #505081;
+}
+
+.logo {
+  color: #ff9f1c;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero span {
+  color: #ff9f1c;
+}
+
+.hero-button:hover {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #ff9f1c;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 40px;
+}
+
+/* SKILLS */
+.skills {
+  text-align: center;
+}
+
+.skill-container span {
+  background: #505081;
+  padding: 8px 15px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.skill-container span {
+  background:  #505081;
+  padding: 8px 15px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* 🔥 HOVER EFFECT */
+.skill-container span:hover {
+  background:  #505081;
+  color: white;
+  transform: scale(1.1);
+}
+/* PROJECTS */
+.projects {
+  text-align: center;
+  padding: 30px;
+}
+
+.project-card {
+  background: #505081;
+  margin: 10px auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 30px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #505081;
+}
+.resume {
+  text-align: center;
+  padding: 30px;
+}
+
+
+.resume a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #ff9f1c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero button:hover {
+  background: #ffbf69;
+  transform: scale(1.1);
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
