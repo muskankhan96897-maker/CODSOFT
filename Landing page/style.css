@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(120deg, #88bdf2, #6A89A7);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00ffae;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  padding: 50px;
+}
+
+.left {
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 50px;
+}
+
+.left button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  background: #00ffae;
+  color: black;
+  cursor: pointer;
+}
+
+/* Glass Card */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.glass-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Services */
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.service-box {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  width: 25%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+}
+
+/* Timeline */
+.work {
+  padding: 50px;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.timeline div {
+  background: #00f7ff;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Contact */
+.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.contact input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+}
+
+.contact button {
+  background: #00f7ff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .timeline {
+    flex-direction: column;
+  }
+
+  .timeline div {
+    margin: 10px 0;
+  }
+}
