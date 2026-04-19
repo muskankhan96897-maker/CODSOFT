@@ -12,7 +12,7 @@ body {
 }
 
 /* Navbar */
-.navbar {
+.navbar  {
   display: flex;
   justify-content: space-between;
   padding: 20px 50px;
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #00ffae;
+  color: #6A89A7;
 }
 
 /* Hero */
@@ -49,7 +49,8 @@ body {
   margin-top: 20px;
   padding: 10px 25px;
   border: none;
-  background: #00ffae;
+/* Hero */
+  background:#6A89A7 ;
   color: black;
   cursor: pointer;
 }
@@ -107,7 +108,7 @@ body {
 }
 
 .timeline div {
-  background: #00f7ff;
+  background: #6A89A7;
   color: black;
   padding: 10px 20px;
   border-radius: 20px;
@@ -133,7 +134,7 @@ body {
 }
 
 .contact button {
-  background: #00f7ff;
+  background: #6A89A7;
   border: none;
   padding: 10px;
   cursor: pointer;
